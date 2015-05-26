@@ -11,6 +11,7 @@
   </pre>
 </div>
 <h3>JS code</h3>
+<p>A simple ajax demo:</p>
 <div>
   <pre>
     <code>
