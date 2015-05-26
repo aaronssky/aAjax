@@ -66,3 +66,15 @@
 如果为数组，jQuery 将自动为不同值对应同一个名称。
 如 {foo:["bar1", "bar2"]} 转换为 '&foo[0]=bar1&foo[1]=bar2'。</code>
 </pre>
+
+<strong>dataType</strong>
+<pre><code>类型：String
+默认值: "text"。预期服务器返回的数据类型。
+可用值如下：
+  "xml" : 返回xml文档
+  "json" : 返回JSON数据
+  "jsonp" : 应用JSONP 格式
+  "text" : 返回纯文本字符串
+</code>
+</pre>
+
