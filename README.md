@@ -121,3 +121,10 @@
 默认值: 当前页地址。发送请求的地址。
 </code>
 </pre>
+
+<strong>success</strong>
+<pre><code>类型：Function
+默认值: 已定义好的默认成功回调函数。请求成功后调用此函数。
+参数：由服务器返回，并根据 dataType 参数进行处理后的数据。
+</code>
+</pre>
