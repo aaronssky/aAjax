@@ -11,7 +11,7 @@
   </pre>
 </div>
 <h3>JS code</h3>
-<p>A simple ajax demo:</p>
+<p>A simple <strong>AJAX</strong> demo:</p>
 <div>
   <pre>
     <code>
@@ -28,7 +28,7 @@
     </code>
   </pre>
 </div>
-<p>A simple JSONP demo:</p>
+<p>A simple <strong>JSONP</strong> demo:</p>
 <div>
   <pre>
     <code>
