@@ -11,6 +11,7 @@
   </pre>
 </div>
 <h3>JS code</h3>
+<h4>Grammar</h4>
 <p>A simple <strong>AJAX</strong> demo:</p>
 <div>
   <pre>
@@ -46,6 +47,7 @@
     </code>
   </pre>
 </div>
+<h3>More</h3>
 <pre>
   <code>133sd</code>
 </pre>
