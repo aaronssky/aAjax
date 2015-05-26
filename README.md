@@ -7,7 +7,7 @@
 <h3>Including file</h3>
 <p>
   <pre>
-    <code><script src="../aAjax.min.js"></script></code>
+    <code><<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>../aAjax.min.js<span class="pl-pds">"</span></span>></<span class="pl-ent">script</span>></code>
   </pre>
 </p>
 <pre>
