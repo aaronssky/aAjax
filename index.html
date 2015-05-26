@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>
+            aron-ajax封装
+        </title>
+        <style>
+        </style>
+        <script type="text/javascript" src="aAjax.min.js"></script>
+        <script type="text/javascript">
+        aAjax({
+            type:"get",
+            url:"ajax.php?id=123",
+            data :{b:{d:[{c:33,d:"4deeeeeeeeeee44"},3,5]}},
+            success : function(data){
+                console.log(data);
+            },
+            error : function(textStatus,errorMsg){
+                console.log(errorMsg);
+            },
+            async : true,
+            processData : true,
+            dataType : "json",
+        })
+
+        aAjax({
+            url:"http://aaronssky.duapp.com/abc.php",
+            data :{b:{c:3,f:{g:3,h:{i:55,j:344,k:{l:5454,m:566},n:5454}},e:44,},d:34,name:"0000000000000000000"},
+            success : function(data){
+                console.log(data.Name);
+            },
+            error : function(textStatus,errorMsg){
+                console.log("load fail");
+            },
+            dataType : "jsonp",
+            jsonp:"cb",
+            jsonpCallback : "jsonpCallback"
+        })
+
+        function jsonpCallback(data){
+            console.info("data = " +data.Name);
+        }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
