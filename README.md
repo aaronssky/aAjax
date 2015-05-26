@@ -11,7 +11,7 @@
   </pre>
 </div>
 <h3>JS code</h3>
-<h4>Grammar</h4>
+<strong>Grammar</strong>
 
 <p><pre><code>
     aAjax([settings]) // settings : not required( to set the AJAX params by Key-Value ).
