@@ -12,11 +12,12 @@
 </div>
 <h3>JS code</h3>
 <h4>Grammar</h4>
-<p>A simple <strong>AJAX</strong> demo:</p>
+
 <p><pre><code>
     aAjax([settings]) // settings : not required( to set the AJAX params by Key-Value ).
     
 </code></pre></p>
+<p>A simple <strong>AJAX</strong> demo:</p>
 <div>
   <pre>
     <code>
