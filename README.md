@@ -78,3 +78,9 @@
 </code>
 </pre>
 
+<strong>error</strong>
+<pre><code>类型：Function
+默认值: 已定义好的默认失败函数。请求失败时调用此函数。
+</code>
+</pre>
+
