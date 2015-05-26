@@ -61,5 +61,8 @@
 
 <strong>data</strong>
 <pre><code>类型：String
-发送到服务器的数据。将自动转换为请求字符串格式。GET 请求中将附加在 URL 后。查看 processData 选项说明以禁止此自动转换。必须为 Key/Value 格式。如果为数组，jQuery 将自动为不同值对应同一个名称。如 {foo:["bar1", "bar2"]} 转换为 '&foo[0]=bar1&foo[1]=bar2'。</code>
+发送到服务器的数据。将自动转换为请求字符串格式。GET 请求中将附加在 URL 后。
+查看 processData 选项说明以禁止此自动转换。必须为 Key/Value 格式。
+如果为数组，jQuery 将自动为不同值对应同一个名称。
+如 {foo:["bar1", "bar2"]} 转换为 '&foo[0]=bar1&foo[1]=bar2'。</code>
 </pre>
