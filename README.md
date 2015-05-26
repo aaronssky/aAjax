@@ -97,3 +97,27 @@
 </code>
 </pre>
 
+<strong>processData</strong>
+<pre><code>类型：Boolean
+默认值: true。默认情况下，通过data选项传递进来的数据，如果是一个对象，都会处理转化成一个查询字符串。
+如果要发送 DOM 树信息或其它不希望转换的信息，请设置为 false。
+</code>
+</pre>
+
+<strong>timeout</strong>
+<pre><code>类型：Number
+默认为0，也即不设置，设置请求超时时间（毫秒）。
+</code>
+</pre>
+
+<strong>type</strong>
+<pre><code>类型：String
+默认值: "GET"。请求方式 ("POST" 或 "GET")， 默认为 "GET"。
+</code>
+</pre>
+
+<strong>url</strong>
+<pre><code>类型：String
+默认值: 当前页地址。发送请求的地址。
+</code>
+</pre>
