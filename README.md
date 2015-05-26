@@ -52,7 +52,7 @@
     </code>
   </pre>
 </div>
-<h3>More</h3>
+<h3>More Parameters</h3>
 <pre>
   <code>Parameters</code>
 </pre>
