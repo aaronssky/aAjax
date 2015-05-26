@@ -84,3 +84,16 @@
 </code>
 </pre>
 
+<strong>jsonp</strong>
+<pre><code>类型：String
+在一个 jsonp 请求中重写回调函数的名字。会在URL参数里作为参数传递给服务器。
+</code>
+</pre>
+
+<strong>jsonpCallback</strong>
+<pre><code>类型：String
+为 jsonp 请求指定一个回调函数名。这个值将用来取代 aAjax 自动生成的随机函数名。
+这主要用来让 aAjax 生成度独特的函数名，这样管理请求更容易，也能方便地提供回调函数和错误处理。
+</code>
+</pre>
+
