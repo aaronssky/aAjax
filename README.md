@@ -16,15 +16,33 @@
   <pre>
     <code>
     aAjax({
-            type:"get",//or "post"
-            url:"xxx.php",
-            data:{id:111, name:"lucy"},
-            success:function(result){
+            type : "get",//or "post"
+            url : "xxx.php",
+            data : {id:111, name:"lucy"},
+            success : function(result){
                       console.log(result);
                     },
             error : function(){a
                       lert("error");
                     })
+    </code>
+  </pre>
+</div>
+<p>A simple JSONP demo:</p>
+<div>
+  <pre>
+    <code>
+    aAjax({
+            url : "xxx.php",
+            data : {id:111, name:"lucy"},
+            success : function(result){
+                      console.log(result);
+                    },
+            error : function(){a
+                      lert("error");
+                    },
+            dataType : "jsonp", //must be "jsonp"
+            jsonp : "cb"})
     </code>
   </pre>
 </div>
