@@ -15,12 +15,15 @@
   <pre>
     <code>
     aAjax({
+            type:"get",//or "post"
             url:"xxx.php",
             data:{id:111, name:"lucy"},
             success:function(result){
                       console.log(result);
                     },
-            dataType:"json"})
+            error : function(){a
+                      lert("error");
+                    })
     </code>
   </pre>
 </div>
